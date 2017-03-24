@@ -1,4 +1,4 @@
-d = 2;
+d = 5
 a = sym('a', [d,1]);
 x = sym('x');
 p = 0;
@@ -56,7 +56,7 @@ for i=1:M
   inf_norm(i) = double(abs(H_r_val - H_1_val));
 end
 
-[val, idx] = max(inf_norm)
+[infty_norm, idx] = max(inf_norm)
 s_val_max = s_grid(idx)
 H_r_subs = subs(H_r, a, a_vals)
 pretty(H_r_subs)
