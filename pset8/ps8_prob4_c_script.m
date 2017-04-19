@@ -5,7 +5,7 @@ h_grid = zeros(N,1);
 
 for i=1:length(K_grid)
   K = K_grid(i);
-  h_grid(i) = ps8_prob4_a(K);
+  h_grid(i) = ps8_prob4_c(K);
 end
 
 h_grid
