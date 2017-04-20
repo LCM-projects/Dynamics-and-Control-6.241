@@ -13,4 +13,8 @@ end
 h_grid_a
 h_grid_e
 
-h_grid_a - h_grid_e
+hold on
+plot(K_grid, h_grid_a, 'b')
+plot(K_grid, h_grid_e, '--r')
+hold off
+% h_grid_a - h_grid_e
